@@ -8,8 +8,8 @@ LIBGET_DIR = "3ds/appstore/.get/packages"
 
 class Plugin(basePlugin.BasePlugin):
 	def __init__(self, app, container):
-		basePlugin.BasePlugin.__init__(self, app, "Wii", container)
-		self.handler = Appstore("Wii", REPO, LIBGET_DIR)
+		basePlugin.BasePlugin.__init__(self, app, "3ds", container)
+		self.handler = Appstore("3ds", REPO, LIBGET_DIR)
 
 	def get_pages(self):
 		all_frame = categoryPage.CategoryPage(self.app, self.container, self.handler, "3ds - All", self.handler.all)
