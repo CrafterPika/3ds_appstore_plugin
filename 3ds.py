@@ -1,7 +1,7 @@
 from gui.widgets import basePlugin, categoryPage, installedCategoryPage
 from appstore import Appstore
 
-3DS_REPO = "http://wiiubru.com/appstore/"
+3DS_REPO = "crafterpika.github.io/3ds-homebrew/"
 LIBGET_DIR = "3ds/appstore/.get/packages"
 
 class Plugin(basePlugin.BasePlugin):
