@@ -1,13 +1,13 @@
 from gui.widgets import basePlugin, categoryPage, installedCategoryPage
 from appstore import Appstore
 
-3DS_REPO = "crafterpika.github.io/3ds-homebrew/"
+CP_REPO = "http://crafterpika.github.io/3ds-homebrew/"
 LIBGET_DIR = "3ds/appstore/.get/packages"
 
 class Plugin(basePlugin.BasePlugin):
 	def __init__(self, app, container):
 		basePlugin.BasePlugin.__init__(self, app, "3ds", container)
-		self.handler = Appstore("3ds", 3DS_REPO, LIBGET_DIR)
+		self.handler = Appstore("3ds", CP_REPO, LIBGET_DIR)
 
 	def get_pages(self):
 		all_frame = categoryPage.CategoryPage(self.app, self.container, self.handler, "3ds - All", self.handler.all)
