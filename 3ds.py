@@ -1,7 +1,7 @@
 from gui.widgets import basePlugin, categoryPage, installedCategoryPage
 from appstore import Appstore
 
-CP_REPO = "http://crafterpika.github.io/3ds-homebrew/"
+CP_REPO = "http://3ds.apps.fortheusers.org/"
 LIBGET_DIR = "3ds/appstore/.get/packages"
 
 class Plugin(basePlugin.BasePlugin):
