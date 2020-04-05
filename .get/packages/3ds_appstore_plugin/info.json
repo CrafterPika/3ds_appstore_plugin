@@ -5,9 +5,9 @@
  "title": "3ds_appstore_plugin",
  "url": "https://github.com/CrafterPika/3ds_appstore_plugin/",
  "author": "LyfeOnEdge, CrafterPika",
- "version": "3.1-1",
+ "version": "3.2-1",
  "details": "An appstore-workbench plugin to access the CrafterPika's 3ds repo.",
  "description": "An appstore-workbench plugin to access the CrafterPika's 3ds repo.",
  "updated": "2020-03-07",
- "changelog": ""
+ "changelog": "3.2-1: hotfix, due to domain bug",
 }
